@@ -3,7 +3,7 @@
 
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-Uses `ts-node` on the very fast (swc)[https://github.com/swc-project/swc-node] engine.
+Uses `ts-node` on the very fast [swc](https://github.com/swc-project/swc-node) engine.
 
 ```sh
 # Setup
