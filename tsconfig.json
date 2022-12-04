@@ -1,0 +1,34 @@
+{
+	"compilerOptions": {
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"baseUrl": "./source",
+		"checkJs": true,
+		"exactOptionalPropertyTypes": true,
+		"experimentalDecorators": true,
+		"forceConsistentCasingInFileNames": true,
+		"importsNotUsedAsValues": "error",
+		"lib": [ "es2022", "es2022.error" ],
+		"module": "es2022",
+		"moduleResolution": "node",
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		// "outDir": "build",
+		"pretty": true,
+		"sourceMap": true,
+		"strict": true,
+		"target": "es2022"
+	},
+	"include": [
+		"./**/*.ts"
+	],
+	"ts-node": {
+		"swc": true,
+		"esm": true
+	}
+}
